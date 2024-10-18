@@ -19,21 +19,34 @@ navegando. Exemplo:**
 
 **iv. Invista nas imagens, adicionando no Card e demais partes do site
 • Contato (Utilizar o componente Forms)
+
 c) Adicionar no arquivo README.md prints relacionado ao site em execução;
+
 d) Destacar no arquivo README.md instruções informando quais as ferramentas utilizadas:
+
 • Uma breve introdução
+
 • Etapas implementadas
+
 • Ferramentas utilizadas
+
 • Backlog
+
 • Conclusão
-b) Após finalizar o site adicionar criar uma Release com a Tag v1.0.0 e especificar as mudanças ou funcionalidades aplicadas a esse repositório até o presente momento;
+
+d) Após finalizar o site adicionar criar uma Release com a Tag v1.0.0 e especificar as mudanças ou funcionalidades aplicadas a esse repositório até o presente momento;
+
 e) Tornar o repositório PÚBLICO.
+
 Excluir as credenciais antes de realizar o primeiro commit:
+
 • cmdkey /delete:LegacyGeneric:target=git:https://github.com
+
 Observação:
 Não executar o commit só na finalização do projeto, é importante que de acordo que for alterando o programa seja feito o commit para futura auditoria e
 segurança caso precise voltar o programa para versões mais antigas. Ao terminar, por favor, responder essa atividade com o link do repositório que encontra-se
 no seu perfil do GitHub.
+
 Desenvolver aplicação usando as seguintes tecnologias:
 • Versionamento usando o GIT e gestão de repositórios online usando o GitHub, além de trabalhar as habilidades criando um site usando um framework**
 
