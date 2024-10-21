@@ -1,0 +1,13 @@
+body{
+    background-color: #666666;
+}
+
+.imagem{
+    margin-top: -97px;
+    height: 200px;
+    background-size: cover;
+    background-position-y: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
