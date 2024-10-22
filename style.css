@@ -1,10 +1,23 @@
 body{
     background-color: #666666;
+    
+}
+.carne{
+    margin-top: 55px;
+    
+    
+}
+.imagem{
+    background-position: center;
+    background-image: url(./hamburguer2.png);
+    background-size: cover;
+    object-fit: cover;
+    max-height: 25vh;
+    height: 35vh;
+    width: 100vw;
 }
 
-
-.carne img{
-    object-fit: cover;
-    max-height: 35vh;
-    width: 100vw;
+.wellcome{
+    display: flex;
+    justify-content: center;
 }
