@@ -20,4 +20,8 @@ body{
 .wellcome{
     display: flex;
     justify-content: center;
+    padding-top: 4vh;
+    font-family:fantasy;
+    color:crimson;
 }
+
