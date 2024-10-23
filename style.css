@@ -25,3 +25,24 @@
     padding-top: 2vh;
 }
 
+.imagem2{
+    background-position:center;
+    background-image: url(./Imagens/hamburguer3.png);
+    background-size: cover;
+    object-fit: cover;
+    max-height: 25vh;
+    height: 35vh;
+    width: 100vw;
+}
+
+.wellcome2{
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+    font-family:fantasy;
+    color:crimson;
+}
+
+.buttomCard{
+    align-items: center;
+}
