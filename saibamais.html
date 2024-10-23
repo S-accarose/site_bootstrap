@@ -15,7 +15,7 @@
   <header>
     <nav class="navbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Boi Passado</a>
+        <a class="navbar-brand" href="./index.html">Boi Passado</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
           aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,15 +35,8 @@
               <li class="nav-item">
                 <a class="nav-link active" href="#">Saiba mais</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="./cardapio.html">Cardápio</a>
               </li>
             </ul>
             <form class="d-flex mt-3" role="search">
@@ -56,8 +49,40 @@
     </nav>
 
     <div class="carne">
-      <img src="./hamburguer3.png" class="img-fluid" alt="">
+      <div class="imagem">
+            <div class="wellcome">
+              <div class="container-fluid section-header-main  ng-scope" ng-controller="HomeController as vm">
+                <section class="section-header-main-content container">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <h1>
+                            Wellcome to
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-7">
+                          <h1>
+                            Boi passado
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 hero-cta hidden-sm hidden-xs main-cta">
+                      <button href="./cardapio.html" type="button" class="btn btn-outline-danger"> ver cardapio</button>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+      </div>
     </div>
+
+    
   </header>
   <main>
 
