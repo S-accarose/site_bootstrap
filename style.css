@@ -16,13 +16,14 @@
 .wellcome{
     display: flex;
     justify-content: center;
-    padding-top: 4vh;
+    padding-top: 7vh;
     font-family:fantasy;
     color:crimson;
 }
 
 .branco{
     padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .imagem2{
@@ -35,14 +36,42 @@
     width: 100vw;
 }
 
-.wellcome2{
-    display: flex;
-    justify-content: center;
-    padding-top: 7vh;
-    font-family:fantasy;
-    color:crimson;
-}
-
 .buttomCard{
     align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonCardapio{
+    text-decoration: none;
+}
+
+.card-group{
+    justify-content: center;
+}
+
+h5{
+    margin: 0;
+}
+
+#cardCardapio{
+    margin: 4px;
+}
+
+footer{
+    font-family: Verdana;
+    color: white;
+    
+}
+
+.Cinza{
+    padding-top: 2vh;
+    background-color: black;
+    padding-bottom: 2vh;
+}
+
+#rodape{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }

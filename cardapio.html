@@ -35,8 +35,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="./saibamais.html">Saiba mais</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Cardápio</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Cardápio</a>
               </li>
             </ul>
             <form class="d-flex mt-3" role="search">
@@ -58,7 +58,7 @@
                       <div class="row">
                         <div class="col-xs-12 col-sm-6">
                           <h1>
-                            Welcome to
+                            Boi Passado
                           </h1>
                         </div>
                       </div>
@@ -67,13 +67,13 @@
                       <div class="row">
                         <div class="col-xs-12 col-sm-7">
                           <h1>
-                            Boi passado
+                            Cardápio
                           </h1>
                         </div>
                       </div>
                     </div>
                     <div class="col-xs-12 hero-cta hidden-sm hidden-xs main-cta">
-                      <button href="./cardapio.html" type="button" class="btn btn-outline-danger"> ver cardapio</button>
+                      
                     </div>
                   </div>
                 </section>
@@ -84,8 +84,561 @@
 
     
   </header>
+
   <main>
 
+    <!-- Boi do Cerrado -->
+    <div class="modal fade" id="boiDoCerrado" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Boi do cerrado</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            O Boi do Cerrado é um hambúrguer suculento de carne bovina, coberto com queijo coalho derretido e cebola caramelizada. Um molho de chimichurri adiciona frescor, tudo servido em um pão de milho macio e tostado. Acompanha batatas rústicas temperadas. Uma explosão de sabores que celebra a essência do cerrado brasileiro!
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continuar para a compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Finalizar compra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="hstack gap-2">
+              <div class="p-2">Dobro de queijo</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Sem salada por favor</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Bifé em Dobro</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">O dobro de molho</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boi Mineiro -->
+    <div class="modal fade" id="boiMineiro" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Boi Mineiro</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            O Boi Mineiro apresenta um hambúrguer de carne bovina com tempero mineiro, recheado com queijo canastra derretido. É coberto com um molho de goiabada picante e servido em um pão crocante. Acompanha batata frita com alecrim, criando uma combinação perfeita entre o salgado e o doce.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continuar para a compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Finalizar compra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="hstack gap-2">
+              <div class="p-2">Dobro de queijo</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Sem salada por favor</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Bifé em Dobro</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">O dobro de molho</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boi da Serra -->
+    <div class="modal fade" id="boiDaSerra" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Boi da Serra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            O Boi da Serra traz um hambúrguer de costela desfiada, temperado com especiarias e grelhado lentamente. Coberto com um molho barbecue defumado e cebolas grelhadas, é servido em um pão de brioche macio. Acompanhado de onion rings crocantes, é uma explosão de sabor e textura.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continuar para a compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Finalizar compra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="hstack gap-2">
+              <div class="p-2">Dobro de queijo</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Sem salada por favor</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Bifé em Dobro</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">O dobro de molho</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boi do Pantanal -->
+    <div class="modal fade" id="boiDoPantanal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Boi do Pantanal</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Este hambúrguer combina carne de boi com um toque especial de pimenta do reino e ervas locais. Coberto com queijo prato derretido e uma farofa crocante, é servido em um pão artesanal. Para acompanhar, chips de batata-doce oferecem um contraste delicioso e saudável.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continuar para a compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Finalizar compra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="hstack gap-2">
+              <div class="p-2">Dobro de queijo</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Sem salada por favor</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Bifé em Dobro</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">O dobro de molho</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boi Gourmet -->
+    <div class="modal fade" id="boiGourmet" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Boi Gourmet</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            O Boi Gourmet é um hambúrguer de carne bovina premium, grelhado no ponto perfeito e coberto com uma camada generosa de queijo brie. Acompanha um chutney de cebola roxa e balsâmico, que traz um toque agridoce. Servido em um pão de batata macio e levemente tostado, é acompanhado de batatas fritas com ervas finas, proporcionando uma experiência sofisticada.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continuar para a compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Finalizar compra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="hstack gap-2">
+              <div class="p-2">Dobro de queijo</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Sem salada por favor</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Bifé em Dobro</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">O dobro de molho</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boi de Chão -->
+    <div class="modal fade" id="boiDeChao" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Boi de Chão</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            O Boi de Chão é um hambúrguer rústico, feito com carne de boi e temperos caseiros, grelhado na brasa para realçar o sabor. Ele vem com uma generosa porção de queijo minas curado e uma maionese de alho. O pão de centeio, robusto e saboroso, complementa a riqueza da carne. Acompanhado de polenta frita, é uma homenagem ao jeito tradicional de se cozinhar no campo.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continuar para a compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Finalizar compra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="hstack gap-2">
+              <div class="p-2">Dobro de queijo</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Sem salada por favor</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Bifé em Dobro</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">O dobro de molho</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boi do Mato -->
+    <div class="modal fade" id="boiDoMato" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Boi do Mato</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Uma suculenta mistura de grão-de-bico com ervas, cenoura ralada e beterraba assada, servido em pão integral. Com maionese de abacate e folhas frescas, é uma homenagem ao sabor rústico da vida rural.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continuar para a compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Finalizar compra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="hstack gap-2">
+              <div class="p-2">Dobro de queijo</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Sem salada por favor</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Bifé em Dobro</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">O dobro de molho</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boi do Campo -->
+    <div class="modal fade" id="boiDoCampo" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Boi do Campo</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Mistura de lentilhas e cogumelos grelhados em pão de batata, coberto com queijo de castanha e chutney de cebola caramelizada. Evoca a nostalgia dos bois pastando livremente, oferecendo um sabor vibrante e acolhedor.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continuar para a compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Finalizar compra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="hstack gap-2">
+              <div class="p-2">Dobro de queijo</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Sem salada por favor</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">Bifé em Dobro</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+            <div class="hstack gap-2">
+              <div class="p-2">O dobro de molho</div>
+              <div class="p-2 ms-auto"><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="branco">
+      <div class="container-xl">
+        <div class="card-group">
+        <a type="button" class="buttonCardapio" data-bs-toggle="modal" data-bs-target="#boiDoCerrado">
+            <div class="card" id="cardCardapio">
+              <img src="./Imagens/2hamburguer.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Boi do Cerrado</h5>
+              </div>
+              <div class="card-footer">
+                <h5>R$15,50</h5>
+              </div>
+            </div>
+          </a>
+          <a type="button" class="buttonCardapio" data-bs-toggle="modal" data-bs-target="#boiMineiro">
+            <div class="card" id="cardCardapio">
+              <img src="./Imagens/2hamburguer.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Boi Mineiro</h5>
+              </div>
+              <div class="card-footer">
+                <h5>R$17,50</h5>
+              </div>
+            </div>
+          </a>
+          <a type="button" class="buttonCardapio" data-bs-toggle="modal" data-bs-target="#boiDaSerra">
+            <div class="card" id="cardCardapio">
+              <img src="./Imagens/2hamburguer.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Boi da Serra</h5>
+              </div>
+              <div class="card-footer">
+                <h5>R$19,50</h5>
+              </div>
+            </div>
+          </a>
+          <a type="button" class="buttonCardapio" data-bs-toggle="modal" data-bs-target="#boiDoPantanal">
+            <div class="card" id="cardCardapio">
+              <img src="./Imagens/2hamburguer.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Boi do Pantanal</h5>
+              </div>
+              <div class="card-footer">
+                <h5>R$18,00</h5>
+              </div>
+            </div>
+          </a>
+          <a type="button" class="buttonCardapio" data-bs-toggle="modal" data-bs-target="#boiGourmet">
+            <div class="card" id="cardCardapio">
+              <img src="./Imagens/2hamburguer.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Boi Gourmet</h5>
+              </div>
+              <div class="card-footer">
+                <h5>R$25,00</h5>
+              </div>
+            </div>
+          </a>
+          <a type="button" class="buttonCardapio" data-bs-toggle="modal" data-bs-target="#boiDeChao">
+            <div class="card" id="cardCardapio">
+              <img src="./Imagens/2hamburguer.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Boi de Chão</h5>
+              </div>
+              <div class="card-footer">
+                <h5>R$14,50</h5>
+              </div>
+            </div>
+          </a>
+          <a type="button" class="buttonCardapio" data-bs-toggle="modal" data-bs-target="#boiDoMato">
+            <div class="card" id="cardCardapio">
+              <img src="./Imagens/2hamburguer.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Boi do Mato</h5>
+              </div>
+              <div class="card-footer">
+                <h5>R$14,50</h5>
+              </div>
+            </div>
+          </a>
+          <a type="button" class="buttonCardapio" data-bs-toggle="modal" data-bs-target="#boiDoCampo">
+            <div class="card" id="cardCardapio">
+              <img src="./Imagens/2hamburguer.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Boi do Campo</h5>
+              </div>
+              <div class="card-footer">
+                <h5>R$15,50</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
